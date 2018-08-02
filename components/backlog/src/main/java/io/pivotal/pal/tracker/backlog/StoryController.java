@@ -36,7 +36,7 @@ public class StoryController {
     }
 
 
-    
+
 
     @GetMapping
     public List<StoryInfo> list(@RequestParam long projectId) {
